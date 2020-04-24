@@ -1,0 +1,27 @@
+
+CVSS Standard
+
+*Información que aporta
+Nos aporta un sistema métrica de puntaje para determinar el impacto que representa una vulnerabilidad,
+Que va del 0-10.
+
+*Periodicidad de actualización
+1v-2v-3.0v-3.1v
+
+*Relación con otros standards
+Ayuda a evaluar el impacto.
+
+*Cómo se calcula el impacto con CVSS
+Se utiliza 3 grupos de métricas:base,temporal y entorno.
+Base:vector de acceso, complejidad de acceso y autenticación.
+Temporal:explotabilidad, el nivel de remediación y el reporte de confianza.
+Entorno:daño potencial colateral, distribución de objetivos,requerimiento de confidencialidad/integridad/disponibilidad
+
+*Como aportaría valor en el cálculo del riesgo
+Una vez sabiendo el valor de una vulnerabilidad se podria clasificar en low,medium,high y critical.
+Para asi ayudar a las organizaciones a evaluar y priorizar adecuadamente sus procesos de gestión de vulnerabilidades.
+
+*Ventajas de utilizar CVSS
+-Permite crear criterios consistentes para la gestión de vulnerabilidades.
+-Es posible conocer las características individuales de la vulnerabilidad.
+-Una priorización consciente de las medidas de seguridad que se desean aplicar
